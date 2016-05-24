@@ -23,3 +23,15 @@ git config --global color.ui auto
 git config --global core.editor "emacs -nw"
 ```
 
+# Creating the next version
+
+1. Make the desired changes to the files
+2. Add (stage) the changes to be in the next version
+3. Commit the staged changes as the next version
+
+```
+emacs -nw notes.txt
+git add notes.txt
+git commit
+```
+
